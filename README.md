@@ -1,4 +1,4 @@
-## I_AM_BROOT
+<h2> I_AM_BROOT </h2>
 <img src="https://img.shields.io/github/license/ggroce/I_AM_BROOT">
 I_AM_BROOT is a standalone cellphone brute force pincode cracking device, created during simpler times when phone security was nigh non existent.
 <br>
@@ -10,7 +10,7 @@ When I built this in 2015, there was a need for a cellphone pincode cracking mac
 <img src="https://user-images.githubusercontent.com/25714007/86405870-ba3e5a00-bc77-11ea-815a-27aed227bfa9.png"> <img src="https://user-images.githubusercontent.com/25714007/86405878-be6a7780-bc77-11ea-8789-e0bdf58d38e8.png">
 </p>
 <br>
-### Details
+<h2> Details </h2>  
 I_AM_BROOT is a standalone device that uses USB-OTG to interface with devices and act as a keyboard.  For phones that didn't support USB-OTG, it features separate leads that through using copper tape, could short out certain capacitive touch screens at specific points, thus simulating a user touching the screen.  The code for I_AM_BROOT contains an ordered array that is sorted by the pincodes of most common use to expedite an average pincode crack, while also featuring the ability to sequentially run through a list of numbers from any chosen start point.  Using a Teensy 3.1 microcontroller, the device was designed, fabricated, and programmed from the ground up.  
 <br>
 <br>
