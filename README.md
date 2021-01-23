@@ -1,6 +1,6 @@
 ## I_AM_BROOT
 <img src="https://img.shields.io/github/license/ggroce/I_AM_BROOT">
-A standalone cellphone brute force pincode cracking device.
+I_AM_BROOT is a standalone cellphone brute force pincode cracking device, created during simpler times when phone security was nigh non existent.  
 <br>
 When I built this in 2015, there was a need for a cellphone pincode cracking machine, capable of automatically entering sequences of pincodes in order to gain access to the data of a cellphone or tablet.  During this time, Android and cellphone manufacturers had yet to implement any serious safeguards against brute force pincode guessing attempts.  
 <br>
