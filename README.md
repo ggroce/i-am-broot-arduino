@@ -3,7 +3,7 @@
 I_AM_BROOT is a standalone cellphone brute force pincode cracking device, created during simpler times when phone security was nigh non existent.
 <br>
 <br>
-When I built this in 2015, there was a need for a cellphone pincode cracking machine, capable of automatically entering sequences of pincodes in order to gain access to the data of a cellphone or tablet incident to search warrants legally issued.  During this time, Android and cellphone manufacturers had yet to implement any serious safeguards against brute force pincode guessing attempts.  
+When I built this in 2015, there was a need for a cellphone pincode cracking machine, capable of automatically entering sequences of pincodes into mobile devices in order to gain access to the data of a cellphone or tablet, incident to search warrants legally issued.  During this time, Android and cellphone manufacturers had yet to implement any serious safeguards against brute force pincode guessing attempts.  
 <br>
 <br>
 <p float="left">
@@ -14,7 +14,7 @@ When I built this in 2015, there was a need for a cellphone pincode cracking mac
 I_AM_BROOT is a standalone device that uses USB-OTG to interface with devices and act as a keyboard.  For phones that didn't support USB-OTG, it features separate leads that through using copper tape, could short out certain capacitive touch screens at specific points, thus simulating a user touching the screen.  The code for I_AM_BROOT contains an ordered array that is sorted by the pincodes of most common use to expedite an average pincode crack, while also featuring the ability to sequentially run through a list of numbers from any chosen start point.  Using a Teensy 3.1 microcontroller, the device was designed, fabricated, and programmed from the ground up.  
 <br>
 <br>
-Using a custom made CNC machine and laser cutter, a break out board was fabricated to hold the Teensy, interface with power, and connect to internal mechanical replays used for controlling the simulated capacitive screen touch events.  The device is controlled by touching the touch sensitive machined hexagonal pieces of aluminum.  The BOB was designed using Eagle Cad, (design files included in repo), and casing was created using Vectric Aspire.  The code was completed in C and is uploaded to the Teensy in the same manner as an Arduino.  
+Using a custom made CNC machine and laser cutter, (created in-house by myself as well), a BOB, (break out board), was fabricated to hold the Teensy, interface with power, and connect to internal mechanical replays used for controlling the simulated capacitive screen touch events.  The device is controlled by touching the touch sensitive machined hexagonal pieces of aluminum.  The BOB was designed using Eagle Cad, (design files included in repo), and casing was created using Vectric Aspire.  The code was written in C and is uploaded to the Teensy using the same software that the famous Arduino boards utilize.  
 <br>
 <br>
 <p float="left">
